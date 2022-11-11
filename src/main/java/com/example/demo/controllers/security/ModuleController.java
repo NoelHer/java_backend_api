@@ -16,6 +16,7 @@ public class ModuleController {
 		return " <h1>Hola Mundo</h1>";
 	}
 	
+	
 	@RequestMapping("/persona")
 	public List <Persona>getPersonas(){
 		List<Persona>personas=new ArrayList<Persona>();
